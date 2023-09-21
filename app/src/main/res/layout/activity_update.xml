@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/google_blue"
+    android:orientation="vertical"
+    tools:context=".updateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/google_blue"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/aimllayout"
+            android:layout_width="380dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/aimlimgbg"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/presentation_1436716" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/aimldesignbg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvaimlclub"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:text="AI  ML Club"
+                    android:textAlignment="center"
+                    android:textColor="#070707"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvaimltimings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Class Timing :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvaimlmode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mode :"
+                    android:textColor="#121111"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvaimlvenue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Venue :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/madimgbg"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivandroid"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/presentation_1436716" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/maddesignbg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvandroid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:text="App Developement Club"
+                    android:textAlignment="center"
+                    android:textColor="#070707"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvmadtimings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Class Timing :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvmadmode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mode :"
+                    android:textColor="#121111"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvmadvenue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Venue :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/cloudimgbg"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivcloud"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/presentation_1436716" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/clouddesignbg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvcloud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:text="Google Cloud Club"
+                    android:textAlignment="center"
+                    android:textColor="#070707"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvcloudtimings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Class Timing :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvcloudmode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mode :"
+                    android:textColor="#121111"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvcloudvenue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Venue :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="380dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/webimgbg"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/ivstack"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/presentation_1436716" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/webdesignbg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/grey"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvstack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_weight="1"
+                    android:text="Full Stack Club"
+                    android:textAlignment="center"
+                    android:textColor="#070707"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/tvwebtimings"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Class Timing :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvwebmode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Mode :"
+                    android:textColor="#121111"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tvwebvenue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Venue :"
+                    android:textColor="#0B0A0A"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewquote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="&quot; You Dont't have to be great to start but you have to start to be great ! &quot;"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/google_blue"
+    tools:context=".aboutActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="467dp"
+        android:background="@drawable/linear_shape"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="At GDSC Prathyusha, We strive to create a peer to peer learning environment to create a solution to a real world problem. Brilliant minds from different backgrounds come under one roof to motivate others to increase their skills.\n\n\nOur Aim is to make students from diverse backgrounds to get together and work on a common real world problem using various Google technology. Our focus is not only on conducting workshops or seminars but to have an outcome from that events."
+            android:textAlignment="center"
+            android:textColor="#F3EFEF"
+            android:textSize="21sp" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="250dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/black" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About us"
+        android:textColor="#FBFBFB"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+</androidx.constraintlayout.widget.ConstraintLayout>

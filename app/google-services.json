@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "853420076655",
+    "firebase_url": "https://gdsc-prathyusha-default-rtdb.firebaseio.com",
+    "project_id": "gdsc-prathyusha",
+    "storage_bucket": "gdsc-prathyusha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853420076655:android:9abeddf7397414b92ee79a",
+        "android_client_info": {
+          "package_name": "com.ag_tech.gdsc_pec"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853420076655-m72rrk5nlqugtq4lmp59bqo8c1r6crcq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ag_tech.gdsc_pec",
+            "certificate_hash": "d7adab2af515b156538f4f1728a33f54002d453c"
+          }
+        },
+        {
+          "client_id": "853420076655-cc361fk92h01fgsh6n8e9f31h5bsr90u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIvnjkK03SyL_ChKuTy2D7kSUUZkYrZAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853420076655-cc361fk92h01fgsh6n8e9f31h5bsr90u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

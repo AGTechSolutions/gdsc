@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/google_blue"
+    tools:context=".register_activity">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="206dp"
+        android:layout_height="118dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_register" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="543dp"
+        android:background="@color/google_blue"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textviewregisterNumber"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="Registration number :"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editTextTextRegisternumber"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/edittextshape"
+            android:backgroundTint="@null"
+            android:ems="10"
+            android:hint=" ex-111421104005"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="Full Name :"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextname"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/edittextshape"
+            android:backgroundTint="@null"
+            android:ems="10"
+            android:hint=" Tony-stark"
+            android:inputType="textPersonName" />
+        <TextView
+            android:id="@+id/textviewdeptName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="Dept Name :"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:id="@+id/editTextTextdeptname"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/edittextshape"
+            android:backgroundTint="@null"
+            android:ems="10"
+            android:hint=" Computer Science Department"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textVieyearsem"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="Year-semester :"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextyearsem"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/edittextshape"
+            android:backgroundTint="@null"
+            android:ems="10"
+            android:hint=" 3rd-01"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textviewclubname"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="Club Name :"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:hint="Mobile app development"/>
+
+        <EditText
+            android:id="@+id/editTextclubname"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/edittextshape"
+            android:backgroundTint="@null"
+            android:ems="10"
+            android:hint=" Mobile app developement"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewphone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:text="Mobile Number :"
+            android:textAlignment="textStart"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/editTextphone"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:background="@drawable/edittextshape"
+            android:backgroundTint="@null"
+            android:ems="10"
+            android:hint=" +91"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/buttonregister"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:backgroundTint="#FFD700"
+            android:text="Register"
+            android:textColor="#101010"
+            app:cornerRadius="15dp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
